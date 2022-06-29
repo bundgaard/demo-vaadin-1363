@@ -2,7 +2,9 @@ package org.tretton63.demovaadin1363;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
+@EnableScheduling
 @SpringBootApplication
 public class DemoVaadin1363Application {
 
